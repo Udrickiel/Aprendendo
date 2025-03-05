@@ -41,6 +41,87 @@
     font-style: italic;
   }
   
-  logo{
-    trans
+  /*Zerando possiveis pre-configurações do navegador */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* HEADER */
+  header{
+    max-width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.2)), url(../images/9668057.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    position: relative;
+  
+  }
+
+  /*----- NAV ----- */
+
+  header nav#nav-esq {
+    width: 100%;
+    height: 150px;
+    /* background-color: #59221D; */
+
+    display: flex ;
+    flex-flow: row;
+    align-items: center; 
+  }
+
+  header nav#nav-esq div#logo {
+    width: 100px;
+    height: 120px;
+    margin-left: 2rem;
+  }
+
+  header nav#nav-esq div#logo img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /*-----Burguer menu-----*/
+
+  header nav#nav-esq ul#icone-menu{
+    display: none;
+  }
+
+  header nav#nav-esq ul#icone-menu li{
+    list-style: none;
+
+  }
+
+  header nav#nav-esq ul#icone-menu li ion-icon{
+    font-size: 50px;
+    color: #fff;
+    margin: 1.5rem;
+  }
+
+  header nav#nav-esq ul#menu-principal{
+    margin-left: 5rem;
+
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  header nav#nav-esq ul#menu-principal li{
+    list-style: none;
+    margin-right: 2rem;
+  }
+
+  header nav#nav-esq ul#menu-principal li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 120%;
+    text-shadow: 4px 6px 10px #000;
+    font-family: "Lobster", sans-serif;
+  }
+
+  header nav#nav-esq ul#menu-principal li a:hover{
+    border-bottom: solid #ffffff;
+    opacity: .8;
   }

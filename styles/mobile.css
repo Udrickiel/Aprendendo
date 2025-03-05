@@ -41,21 +41,46 @@
     font-style: italic;
   }
 
+@media screen and (max-width: 630px) {
+  /* ---Menu Hamburguer */
+  header nav#nav-esq{
+    justify-content: space-between;
+  }
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
+  header nav#nav-esq ul#icone-menu{
+    display: flex;
+  }
+
+  header nav#nav-esq ul#icone-menu{
+    display: flex;
+  }
+
+  header nav#nav-esq ul#icone-menu li#menuX{
+    display: none;
+  }
+  /* ---Menu--- */
+  header nav#nav-esq ul#menu-principal{
+    flex-direction: column;
+    width: 80% ;
+    height: 85vh;
+    background: linear-gradient(rgb(11, 34, 43) 0%, rgb(38, 64, 75) 45%, rgb(58, 29, 160) 100%);
+    padding-top: .5rem;
+
+    position: absolute;
+    top: 9.3rem;
+    right: 0;
+    z-index: 999;
+
+    display: none;
+  }
 
 
-header{
-  max-width: 100%;
-  height: 90vh;
-  background: linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.2)), url(../images/9668057.jpg);
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-size: cover;
-  position: relative;
-
+  header nav#nav-esq ul#menu-principal li{
+    margin: .5em;
+    margin-left: 1rem;
+  }
+  header nav#nav-esq ul#menu-principal li a{
+    font-size: 160%;
+  }
 }
