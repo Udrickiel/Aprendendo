@@ -62,10 +62,12 @@
   /* ---Menu--- */
   header nav#nav-esq ul#menu-principal{
     flex-direction: column;
-    width: 80% ;
-    height: 85vh;
+    width: 45% ;
+    /* height: 85vh; */
     background: linear-gradient(rgb(11, 34, 43) 0%, rgb(38, 64, 75) 45%, rgb(58, 29, 160) 100%);
+    background-size: contain;
     padding-top: .5rem;
+    
 
     position: absolute;
     top: 9.3rem;
