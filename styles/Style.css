@@ -1,0 +1,46 @@
+/* Paleta de cores 1 */
+.Moda-1-hex { color: #BF7154; }
+.Moda-2-hex { color: #A62317; }
+.Moda-3-hex { color: #BF2C1F; }
+.Moda-4-hex { color: #590808; }
+.Moda-5-hex { color: #BF9F9F; }
+
+/* Paleta de cores 2 */
+.Moda-1-hex { color: #30478C; }
+.Moda-2-hex { color: #5671A6; }
+.Moda-3-hex { color: #D99D55; }
+.Moda-4-hex { color: #BF754B; }
+.Moda-5-hex { color: #59221D; }
+
+
+/*Importaçao da fonte lobster*/
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Importaçao da fonte Black-ops-regular*/
+.black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Importaçao da fonte Montserrat italic 400*/
+.montserrat-alternates-regular-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+/*Importaçao da fonte Montserrat italic 700*/
+.montserrat-alternates-bold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  logo{
+    trans
+  }
